@@ -1,0 +1,119 @@
+body{
+    background-color: bisque;
+    background-repeat: no-repeat;
+    background-image: url();
+
+    
+  }
+  h1{
+    color: rgb(44, 14, 14);
+    
+  }
+  .image{
+display: grid;
+ align-items: center; 
+ grid-template-columns: 5fr 1fr 1fr;
+ column-gap: 5px;
+  }
+  
+  
+  .text {
+    font-size: 50px;
+    text-shadow: 2px 2px #ff0000;
+  }
+
+  .imgs{
+    
+    display: inline;
+    height:15%;
+    width: 15%;
+    float: left;
+  }
+  img {
+    border: 0 none;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  
+  }
+  .cardimg div{
+    width: 40%;
+  float: left;
+  }
+  .menuimg{
+    height: 25%;
+    width: 25%;
+    text-align: justify;
+  }
+  
+  hgroup {
+    background-image: url("menu.jpg");
+    background-position: center;
+    width:1200px;
+	  height: 600px;
+    margin-left: 10px;
+  
+  }
+  .first {
+    text-align: center;
+    padding-top: 200px;
+    padding-right:400px;
+    padding-left: 400px;
+    color: blanchedalmond;
+    font-size: 64px;}
+
+    .second {
+      text-align: center;
+      color: blanchedalmond;
+      padding-right:400px;
+      padding-left: 400px;
+      font-size: 25px;
+    }
+
+      .first {
+        text-align: center;
+        padding-top: 263px;
+        padding-right:600px;
+        font-size: 44px;
+      }
+      .second {
+        text-align: center;
+        color: white;
+        padding-right:600px;
+        font-size: 17px;
+      }
+h4{
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  color: darkred;
+  text-align: center;
+}
+pre{
+  text-align: end;
+}
+
+
+img.align-left {
+	float:right;
+	margin-right: 10px;
+}
+img.medium {
+	width: 250px;
+	height: 224px;
+	margin-right: -10px;
+}
+.all {
+	width: 1000px;
+	margin-left: 361px;
+  text-shadow: 2px 2px;
+
+}
+.all pre{
+  text-align: left;
+  
+  
+}
+.card{
+  margin-top: 20px;
+}
